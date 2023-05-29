@@ -1,6 +1,11 @@
 # checadorDocker
 implementacion de docker
 
+
+
+crear usuario via php
+docker-compose exec php php /var/www/artisan tinker
+
 correr las migraciones
 docker-compose exec php php /var/www/artisan migrate
 
